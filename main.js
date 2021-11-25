@@ -53,7 +53,9 @@ function count(){
 	}
 	else{
 		counter.innerHTML = "SEU TEMPO ACABOU!";
-        content.style.fontSize = '4rem';
+        content.style.fontSize = '5rem';
+		content.style.background = '#06205896';
+		content.style.borderRadius = '18px';
 		btn.style.opacity = '0';
 	}
 }
